@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FormattingStyle\Alignment.cs" />
+    <Compile Include="FormattingStyle\BlankLines.cs" />
     <Compile Include="FormattingStyle\BracesLayout.cs" />
     <Compile Include="FormattingStyle\Indents.cs" />
     <Compile Include="FormattingStyle\Tab.cs" />

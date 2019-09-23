@@ -47,6 +47,7 @@
     <Compile Include="FormattingStyle\BlankLines.cs" />
     <Compile Include="FormattingStyle\BracesLayout.cs" />
     <Compile Include="FormattingStyle\Indents.cs" />
+    <Compile Include="FormattingStyle\LineBreakAndWrapping.cs" />
     <Compile Include="FormattingStyle\Tab.cs" />
     <Compile Include="NamingStyle.cs" />
     <Compile Include="Program.cs" />

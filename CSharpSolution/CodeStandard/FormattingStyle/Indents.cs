@@ -81,7 +81,9 @@ namespace CodeStandard.FormattingStyle
             if (
                 a > 0 ||
                 b < 0
-            ) { }
+            )
+            {
+            }
         }
 
         /// <summary>

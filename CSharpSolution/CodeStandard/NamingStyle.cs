@@ -7,18 +7,15 @@ namespace CodeStandard
     // 类型使用UpperCamelCase
     internal struct ValueType
     {
-
     }
 
     internal class ReferenceType
     {
-
     }
 
     // 接口使用IUpperCamelCase
     internal interface IInterface
     {
-
     }
 
     // 类型参数使用TUpperCamelCase
@@ -47,7 +44,6 @@ namespace CodeStandard
         // 方法使用UpperCamelCase
         public void Method()
         {
-
         }
 
         // 事件使用UpperCamelCase
@@ -77,7 +73,6 @@ namespace CodeStandard
             // 本地函数， UpperCamel
             void LocalFunction()
             {
-
             }
         }
 
@@ -90,10 +85,12 @@ namespace CodeStandard
 
         // 保护字段， lowerCamelCase
         protected int protectedField;
+
         protected internal int protectedInternalField;
 
         // 其他字段， UpperCamelCase
         public int PublicField;
+
         internal int InternalField;
 
         // 静态字段
@@ -102,10 +99,12 @@ namespace CodeStandard
 
         // 保护字段， lowerCamelCase
         protected static int protectedStaticField;
+
         protected internal static int protectedInternalStaticField;
 
         // 其他字段， UpperCamelCase
         public static int PublicStaticField;
+
         internal static int InternalStaticField;
 
         // 常量
@@ -115,10 +114,12 @@ namespace CodeStandard
 
         // 保护字段， lowerCamelCase
         protected const int protectedConstField = 0;
+
         protected internal const int protectedInternalConstField = 0;
 
         // 其他字段， UpperCamelCase
         public const int PublicConstField = 0;
+
         internal const int InternalConstField = 0;
 
         // 静态只读字段
@@ -127,10 +128,12 @@ namespace CodeStandard
 
         // 保护字段， lowerCamelCase
         protected static readonly int protectedStaticReadOnlyField;
+
         protected internal static readonly int protectedInternalStaticReadOnlyField;
 
         // 其他字段， UpperCamelCase
         public static readonly int PublicStaticReadOnlyField;
+
         internal static readonly int InternalStaticReadOnlyField;
         #pragma warning restore 649
         #pragma warning restore 169

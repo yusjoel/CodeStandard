@@ -471,7 +471,7 @@ namespace CodeStandard.FormattingStyle
         }
 
         /// <summary>
-        ///内插字符串的排列
+        ///     内插字符串的排列
         /// </summary>
         public class ArrangementOfInterpolatedStrings
         {

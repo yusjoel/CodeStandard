@@ -44,7 +44,7 @@ namespace CodeStandard.FormattingStyle
         }
 
         /// <summary>
-        ///     属性的排列
+        ///     特性的排列
         /// </summary>
         public class ArrangementOfAttributes
         {
@@ -63,7 +63,12 @@ namespace CodeStandard.FormattingStyle
                 public int Field = 0;
 
                 [DebuggerHidden]
-                public int Property { [DebuggerHidden] get; private set; }
+                public int Property
+                {
+                    [DebuggerHidden]
+                    get;
+                    private set;
+                }
 
                 [Conditional("DEBUG")]
                 public void Method()

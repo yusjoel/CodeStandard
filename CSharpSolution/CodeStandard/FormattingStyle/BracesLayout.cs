@@ -67,14 +67,10 @@ namespace CodeStandard.FormattingStyle
             };
 
             if (a > 0)
-            {
                 // 允许括号后跟随注释: no
                 // 其他情况
                 foreach (int i in array)
-                {
                     Console.WriteLine(i);
-                }
-            }
         }
 
         // 括号内为空的情况: 下一行

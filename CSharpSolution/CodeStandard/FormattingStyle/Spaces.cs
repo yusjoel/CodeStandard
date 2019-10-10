@@ -107,7 +107,7 @@ namespace CodeStandard.FormattingStyle
         {
             // 提升优先级: 否
             // 类型强转: 否
-            // 方法的调用与申明: 否
+            // 方法的调用与声明: 否
             // typeof与括号之间: 否
             // default与括号之间: 否
             // checked, unchecked与括号之间: 否

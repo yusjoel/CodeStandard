@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeStyle.cs" />
     <Compile Include="FormattingStyle\Alignment.cs" />
     <Compile Include="FormattingStyle\BlankLines.cs" />
     <Compile Include="FormattingStyle\BracesLayout.cs" />

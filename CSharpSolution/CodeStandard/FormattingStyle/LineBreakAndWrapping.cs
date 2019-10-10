@@ -174,7 +174,7 @@ namespace CodeStandard.FormattingStyle
         }
 
         /// <summary>
-        ///     申明代码块的排列
+        ///     声明代码块的排列
         ///     保持原有排列: 否
         /// </summary>
         public class ArrangementOfDeclarationBlocks

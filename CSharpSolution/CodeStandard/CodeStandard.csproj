@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeInspection\ParameterHidesMember.cs" />
     <Compile Include="CodeStyle.cs" />
     <Compile Include="FormattingStyle\Alignment.cs" />
     <Compile Include="FormattingStyle\BlankLines.cs" />
@@ -62,5 +63,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
